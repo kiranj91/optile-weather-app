@@ -1,0 +1,49 @@
+.BarChartDiv {
+	margin: 0 auto;
+	padding: 50px;
+	height: 250px;
+	width: 200px;
+}
+
+.ChartGrid {
+	height: 100% !important;
+	display: flex;
+	align-items: flex-end;
+}
+
+.BarChartDivSub {
+  height: 100%;
+  margin: 0 30px 0 0;
+  flex: 1;
+	width: 250px;
+  display: flex;
+  align-items: flex-end;
+  animation: slideUp .6s;
+  position: relative;
+}
+
+.BarChartItem {
+  background-color: #8791ce;
+  display: inline-block;
+  margin: 0 20px 0 0;
+	min-width: 50px;
+  flex: 1;
+  transition: height 1s ease-out, width 1s ease-out;
+  position: relative;
+  text-align: center !important;
+}
+
+.BarTopSpan {
+  position: relative;
+  font-size: 14px;
+	font-weight: 500;
+  top: -25px;
+  color: #8791ce;
+}
+
+.BarBottomSpan {
+	position: relative;
+  float: left;
+  padding-left: 12px;
+	font-weight: 500;
+}

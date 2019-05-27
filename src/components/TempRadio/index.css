@@ -1,0 +1,11 @@
+.RadioGroup {
+  display: inline-block !important;
+}
+
+.LeftRadio {
+  padding-right: 40px;
+}
+
+.RightRadio {
+  padding-left: 40px;
+}
